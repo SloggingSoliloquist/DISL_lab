@@ -1,0 +1,122 @@
+$date
+	Mon Sep  1 15:40:30 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module four_one_to_sixteen_one_mux_tb $end
+$var wire 1 ! op $end
+$var reg 4 " s [3:0] $end
+$var reg 16 # w [15:0] $end
+$scope module mux $end
+$var wire 4 $ s [3:0] $end
+$var wire 16 % w [15:0] $end
+$var wire 1 ! op $end
+$var wire 4 & mux_op [3:0] $end
+$scope module mux0 $end
+$var wire 2 ' s [1:0] $end
+$var wire 4 ( w [3:0] $end
+$var wire 1 ) op $end
+$upscope $end
+$scope module mux1 $end
+$var wire 2 * s [1:0] $end
+$var wire 4 + w [3:0] $end
+$var wire 1 , op $end
+$upscope $end
+$scope module mux2 $end
+$var wire 2 - s [1:0] $end
+$var wire 4 . w [3:0] $end
+$var wire 1 / op $end
+$upscope $end
+$scope module mux3 $end
+$var wire 2 0 s [1:0] $end
+$var wire 4 1 w [3:0] $end
+$var wire 1 2 op $end
+$upscope $end
+$scope module mux4 $end
+$var wire 2 3 s [1:0] $end
+$var wire 4 4 w [3:0] $end
+$var wire 1 ! op $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 4
+b0 3
+02
+b1010 1
+b0 0
+0/
+b1010 .
+b0 -
+0,
+b1010 +
+b0 *
+0)
+b1010 (
+b0 '
+b0 &
+b1010101010101010 %
+b0 $
+b1010101010101010 #
+b0 "
+0!
+$end
+#10
+b10 '
+b10 *
+b10 -
+b10 0
+b10 "
+b10 $
+#20
+b0 '
+b0 *
+b0 -
+b0 0
+b1 3
+b100 "
+b100 $
+#30
+b10 '
+b10 *
+b10 -
+b10 0
+b110 "
+b110 $
+#40
+b0 '
+b0 *
+b0 -
+b0 0
+b10 3
+b1000 "
+b1000 $
+#50
+b10 '
+b10 *
+b10 -
+b10 0
+b1010 "
+b1010 $
+#60
+b0 '
+b0 *
+b0 -
+b0 0
+b11 3
+b1100 "
+b1100 $
+#70
+b10 '
+b10 *
+b10 -
+b10 0
+b1110 "
+b1110 $
+#80

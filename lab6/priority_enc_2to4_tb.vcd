@@ -1,0 +1,70 @@
+$date
+	Mon Sep 22 15:55:23 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module priority_enc_2to4_tb $end
+$var wire 1 ! z $end
+$var wire 2 " y [1:0] $end
+$var reg 4 # w [3:0] $end
+$scope module priority $end
+$var wire 4 $ w [3:0] $end
+$var reg 2 % y [1:0] $end
+$var reg 1 ! z $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11 %
+b1000 $
+b1000 #
+b11 "
+1!
+$end
+#10
+b1001 #
+b1001 $
+#20
+b1010 #
+b1010 $
+#30
+b10 "
+b10 %
+b100 #
+b100 $
+#40
+b101 #
+b101 $
+#50
+b111 #
+b111 $
+#60
+b1 "
+b1 %
+b10 #
+b10 $
+#70
+b11 #
+b11 $
+#80
+b11 "
+b11 %
+b1010 #
+b1010 $
+#90
+b0 "
+b0 %
+b1 #
+b1 $
+#100
+bx "
+bx %
+0!
+b0 #
+b0 $
+#110
